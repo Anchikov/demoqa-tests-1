@@ -1,0 +1,76 @@
+# Maven/Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven wrapper
+.mvn/
+
+# Allure local installation
+.allure/
+
+# Claude Code
+.claude/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build tools
+.mvn/wrapper/maven-wrapper.jar
+
+# Test artifacts
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+
+# Credentials (env файлы с паролями)
+.env
+.env.*
+
+# Auth storage state (cookies/JWT)
+target/auth-storage-state-*.json
+
+# Claude Code (personal)
+CLAUDE.local.md
+CLAUDE.md
+
+# Playwright MCP screenshots
+.playwright-mcp/
+
+# Serena
+.serena/
+
+# Screenshots (local captures)
+screenshots/
+*.screenshot.png
+
+# Debug/investigation screenshots in root
+*.png
+
+# Docs (local guides)
+docs/
+
+# Local review notes
+CODE_REVIEW.md
+
+# Git hooks (локальные, ставятся через install-hooks.sh)
+scripts/pre-commit.sh
+scripts/install-hooks.sh
+
+# Windows artifacts
+nul
+
+# Checkstyle output
+*checkstyle-output.txt
