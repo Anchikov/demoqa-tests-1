@@ -8,5 +8,8 @@ public class FirstTest {
     public void secondTest() {
         System.out.println("Hello, Maven!");
     }
-
+    @Test
+    public void ThirdTest() {
+        System.out.println("Hello, Maven!");
+    }
 }
